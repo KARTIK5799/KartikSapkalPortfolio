@@ -1,0 +1,35 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body,html {
+  height: 100%;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.6;
+
+}
+
+
+:root {
+  --primary-color: #0d1016; 
+  --secondary-color: #121927;
+  --text-gradient-blue: linear-gradient(90deg, #4c73ff 2.34%, #389bff 100.78%);
+  --text-gradient-green: linear-gradient(90deg, #7affd7, #00ffb2);
+  --text-gradient-orange: linear-gradient(90deg, #ff7170 -50.34%, #ffe57f 100.78%);
+  --text-gradient-purple: linear-gradient(90deg, #854cff, #b573f8);
+  --text-gradient-blue-purple: linear-gradient(90deg, #4ca5ff, #b573f8);
+  --text-gradient-black: linear-gradient(-90deg, #041321 30%, #344258 100%);
+  --text-gradient-white: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  --text-white:#ffffff;
+  --text-gray:#d0dfff;
+  --text-black:#000;
+}
+
+body{
+  background-color: var(--primary-color);
+}

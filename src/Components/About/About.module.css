@@ -1,0 +1,193 @@
+.AboutSection{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary-color);
+    flex-direction: column;
+    color: var(--text-white);
+    overflow: hidden;
+}
+.aboutHeading{
+    color: transparent;
+    font-size: 100px;
+    background: var(--text-gradient-blue-purple);
+    margin-top: 0rem;
+}
+.aboutText{
+    color: transparent;
+    font-size: 20px;
+    background: var(--text-gradient-green);
+    margin-top: -40px;
+    margin-bottom: 20px;
+}
+.gradientText {
+    background-clip: text;
+     -webkit-background-clip: text;
+     color: transparent;
+ }
+
+.aboutCard{
+    background: var(--secondary-color);
+    width: 60rem;
+   border-radius:16px ;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+    height:70vh;
+    padding: 3rem;
+    gap: 2rem;
+}
+.imgBag{
+width: 100%;
+height: 100%;
+background: var(--text-gradient-orange);
+padding:1rem 1rem 1rem 1rem;
+border-radius: 100%;
+overflow: hidden;
+}
+
+.imgBag>img{
+    width: 20rem;
+}
+
+.infoSection{
+    display: flex;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    
+    
+}
+.infoSection h2{
+    background: var(--text-gradient-orange);
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color: transparent;
+    font-size: 3rem;
+}
+.education{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2rem;
+    border-bottom: 1px solid white;
+    padding-bottom: 2rem;
+}
+
+.education1{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border-right:1px solid white ;
+
+}
+.education2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+    
+    }
+
+.description{
+    color: var(--text-gray);
+    border-bottom: 1px solid white;
+    padding-bottom: 1rem;
+}
+.education h3{
+    background: var(--text-gradient-orange); 
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color: transparent;
+}
+.education p{
+    color: var(--text-gray);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem;
+}
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 2rem;
+    cursor: pointer;
+}
+.social img{
+    height: 40px;
+}
+
+
+/* Tablet Devices */
+@media (min-width: 577px) and (max-width: 1100px) {
+    .aboutCard{
+        flex-direction: column;
+        width: 40rem;
+        height: 60rem;
+        padding: 2rem;
+        gap: 0rem;
+
+    }
+    .aboutHeading{
+        margin-top: 0.5rem;
+        font-size: 100px;
+    }
+    
+  }
+  
+  /* Mobile Devices */
+ @media (max-width: 576px) {
+    .aboutCard{
+        flex-direction: column;
+        width: 22rem;
+        height: 43rem;
+        padding: 2rem;
+        gap: 0.5rem;
+        
+
+    }
+    .aboutHeading{
+        margin-top: 0.5rem;
+        font-size: 60px;
+    }
+    .imgBag>img{
+        width: 10rem;
+    }
+    .infoSection{
+        padding: 1rem;
+    }
+    .infoSection h2{
+        font-size: 2rem;
+    }
+    .aboutText{
+        margin-top: -10px;
+    }
+    .description{
+        font-size: 0.8rem;
+        padding-bottom: 0.5rem;
+    }
+    .education{
+        margin-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+    .education h3{
+        font-size: 1.2rem;
+    }
+    .education2{
+      
+        padding: 0;
+    }
+    .education p{
+        font-size: 0.7rem;
+    }
+    .social{
+        margin-top: 0;
+        padding: 1rem;
+    }
+  } 

@@ -1,0 +1,155 @@
+.navContainer {
+    color: var(--text-white);
+    font-family: "Poppins", cursive;
+    font-size: 1.2rem;
+   position: fixed;
+   width: 100%;
+   z-index: 1000;
+}
+
+.deskNav {
+    display: block;
+    border: 2px solid rgb(181, 186, 200);
+    margin: 2rem 5rem;
+    padding: 0 3rem;
+    border-radius: 6px;
+    background-color:rgba(255, 255, 255, 0.1);
+ 
+  
+}
+
+.navBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.navLeft {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navLogoText{
+    font-family: "Ephesis", cursive;
+    font-size: 3rem;
+}
+
+.navRight {}
+
+.navLinks {
+    display: flex;
+    gap: 2rem;
+}
+
+.navLink {
+    text-decoration: none;
+    list-style-type: none;
+    cursor: pointer;
+    position: relative;
+
+}
+
+.navLink.active {
+    position: relative;
+}
+
+.navLink.active::after {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: var(--text-gradient-purple);
+}
+
+.navLink::after {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: var(--text-gradient-purple);
+    transition: width 0.3s ease;
+}
+
+.navLink:hover::after {
+    width: 100%;
+    transform-origin: left;
+}
+.navBarMobile{
+
+}
+
+.mobiNav {
+    display: none;
+    background-color:rgba(255, 255, 255, 0.1);
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    border: 1px solid rgb(181, 186, 200);
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 6px 6px 0px 0px;
+
+}
+.navLinksMobile{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+
+}
+.navLinkMobile{
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.navLinkMobile>span{
+  font-size: 35px;
+  color: var(--text-white);
+  border-radius: 100px;
+  padding: 10px;
+  text-shadow: 2px 1px 2px black;
+}
+.navLinkMobile.active{
+  background:var(--text-gradient-purple);
+  border-radius: 100px;
+  text-shadow: 2px 1px 2px black;
+  text-align: center;
+
+}
+
+
+
+
+  /* Tablet Devices */
+  @media (min-width: 577px) and (max-width: 992px) {
+    .navContainer {
+        font-size: 1rem;
+    }
+    .navLinks {
+        gap: 1rem;
+    }
+    .navLogoText{
+        font-size: 2rem;
+    }
+    .deskNav {
+        margin: 1rem 2.5rem;
+        padding: 0.5rem 1.5rem;
+    }
+  }
+  
+  /* Mobile Devices */
+@media (max-width: 576px) {
+    .mobiNav {
+        display: block;
+    }
+ .deskNav{
+    display: none;
+ }
+  }

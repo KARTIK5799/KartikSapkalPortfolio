@@ -1,0 +1,23 @@
+.typewriterContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  background:var(--text-gradient-white);
+  font-family: Montserrat, sans-serif;
+  color:var(--text-black);
+  height: 100vh;
+  width: 100vw;
+ 
+}
+
+.hidden {
+  animation-name: hideContainer;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes hideContainer {
+  0% { height: 100vh; }
+  100% { height: 0; display: none;  color: #000; font-size: 0px;}
+}

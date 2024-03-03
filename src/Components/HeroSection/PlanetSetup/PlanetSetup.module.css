@@ -1,0 +1,224 @@
+.planets {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    overflow: hidden;
+    width: 100vw;
+    position: relative; 
+  
+}
+
+.Planet1,
+.Planet2,
+.Planet3,
+.Planet4,
+.Planet5,
+.Planet6,
+.Planet7,
+.Planet8,
+.Planet9 {
+    position: absolute;
+   
+
+}
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes wave {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(20px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.Planet1 {
+    width: 70rem;
+    top: 15rem;
+    left: 2rem;
+    animation: float 6s ease-in-out infinite; 
+}
+
+.Planet2 {
+    width: 90rem;
+    top: 3rem;
+    right: 1rem;
+    animation: wave 7s ease-in-out infinite; 
+}
+
+.Planet3 {
+    width: 70rem;
+    top: 10rem;
+    right: 5rem;
+    animation: float 5s ease-in-out infinite; 
+}
+
+.Planet4 {
+    width: 80rem;
+    top: 2rem;
+    left: 15rem;
+    animation:  wave 4s ease-in-out infinite; 
+}
+
+.Planet5 {
+    width: 80rem;
+    top: 5rem;
+    left: 10rem;
+    animation: float 3s ease-in-out infinite; 
+}
+
+.Planet6 {
+    width: 60rem;
+    top: 15rem;
+    right: 1rem;
+    animation: wave 3s ease-in-out infinite; 
+}
+
+.Planet7 {
+    width: 80rem;
+    top: 2rem;
+    left: 7rem;
+    animation: float 4s ease-in-out infinite; 
+}
+
+.Planet8 {
+    width: 80rem;
+    top: 3rem;
+    left: 3rem;
+    animation: wave 5s ease-in-out infinite; 
+}
+
+.Planet9 {
+    width: 80rem;
+    top: 7rem;
+    left: 2rem;
+    animation: float 5s ease-in-out infinite; 
+}
+
+ /* Tablet Devices */
+ @media (min-width: 577px) and (max-width: 1100px) {
+   
+    .Planet1 {
+        width: 70rem;
+        margin-top: 5rem;
+        left: -3rem;
+    }
+    
+    .Planet2 {
+        width: 90rem;
+        top: 1rem;
+        right: -2rem;
+    }
+    
+    .Planet3 {
+       margin-top: 30rem;
+      right: -10rem;
+    }
+    
+    .Planet4 {
+        width: 80rem;
+        top: 25rem;
+        left: -10rem;
+        
+    }
+    
+    .Planet5 {
+        width: 80rem;
+        top: 25rem;
+        left: -10rem;
+    }
+    
+    .Planet6 {
+        width: 60rem;
+        top: 25rem;
+        right: -2rem;
+       
+    }
+    
+    .Planet7 {
+        width: 50rem;
+        top: 5rem;
+        left: 5rem;
+    }
+    
+    .Planet8 {
+        width: 80rem;
+        top: 3rem;
+        left: 3rem;
+        animation: wave 5s ease-in-out infinite; 
+    }
+    
+    .Planet9 {
+        width: 80rem;
+        top: 5rem;
+        left: -13rem;
+       
+    }
+    
+  }
+  
+  /* Mobile Devices */
+@media (max-width: 576px) {
+    .Planet1 {
+        width: 60rem;
+        top: -20rem;
+      
+       
+    }
+    
+    .Planet2 {
+        display: none;
+    }
+    
+    .Planet3 {
+        display: none;
+    }
+    
+    .Planet4 {
+        display: none;
+        
+    }
+    
+    .Planet5 {
+        width: 50rem;
+        top: 25rem;
+        left: -12rem;
+    }
+    
+    .Planet6 {
+        width: 40rem;
+        top: 25rem;
+        right: -2rem;
+       
+    }
+    
+    .Planet7 {
+        width: 50rem;
+        top: 2rem;
+        left: 0rem;
+    }
+    
+    .Planet8 {
+        display: none;
+    }
+    
+    .Planet9 {
+        width: 80rem;
+        top: 5rem;
+        left: -15rem;
+       
+    }
+  }
