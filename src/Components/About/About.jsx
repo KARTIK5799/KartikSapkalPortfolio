@@ -6,10 +6,13 @@ import instagram from '../../assets/Instagram.svg'
 import linkedin from '../../assets/LinkedIn.svg'
 import discord from '../../assets/Discord.svg'
 
+
 const About = () => {
+
+
     return (
         <div className={style.AboutSection}>
-            <h1 className={`${style.aboutHeading} ${style.gradientText}`}>About Me!</h1>
+            <h1  className={`${style.aboutHeading} ${style.gradientText}`}>About Me!</h1>
             <p className={`${style.aboutText} ${style.gradientText}`}>My Introduction</p>
             <div className={style.aboutCard}>
                 <div className={style.imgSection}>

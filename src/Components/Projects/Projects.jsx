@@ -1,46 +1,10 @@
 import style from './Projects.module.css';
-import { motion } from "framer-motion";
-import projectImg from '../../assets/projectimg/p1.png';
+import projectImg from '../../assets/1.png';
 import {projectData} from '../../Api/Projects';
-import {useRef,useEffect,useState} from 'react'
+
 
 const Projects = () => {
-  const [width,setWidth]=useState(0);
-  const carousel=useRef();
 
-useEffect(()=>{
-  setWidth(carousel.current.scrollWidth-carousel.offsetWidth);
-},[]);
-
-  const sliderVariants = {
-    initial: {
-      x: 0,
-    },
-    animate: {
-      x: "-20%",
-      transition: {
-        repeat: Infinity,
-        repeatType:"loop",
-        duration: 20,
-        ease:"linear"
-      },
-    },
-  };
-
-  const sliderVariantsright = {
-    initial: {
-      x: 0,
-    },
-    animate: {
-      x: "20%",
-      transition: {
-        repeat: Infinity,
-        repeatType:"loop",
-        duration: 20,
-        ease:"linear"
-      },
-    },
-  };
 
   return (
     <div className={style.ProjectSection}>
@@ -51,10 +15,10 @@ useEffect(()=>{
         Most Recent Works
       </p>
 
-      <motion.div className={style.carousel} ref={carousel} whileTap={{cursor:"grabbing"}}>
-        <motion.div className={style.innerCarousel} drag="x" dragConstraints={{right:0,left:-width}}>
+      <div className={style.carousel} >
+        <div className={style.innerCarousel} >
           {projectData.map((project) => (
-            <motion.div className={style.item} key={project.id}>
+            <div className={style.item} key={project.id}>
               <div className={style.card}>
                 <div className={style.tools}>
                   <div className={style.circle}>
@@ -90,31 +54,15 @@ useEffect(()=>{
                         GitHub
                       </a>
                     </div>
-                    <p className={style.details}>{project.details}</p>
                   </div>
                 </div>
               </div>
-            </motion.div>
+            </div>
           ))}
-        </motion.div>
-      </motion.div>
+        </div>
+      </div>
 
-      {/* <motion.div
-        className={style.slidingTextCintainerright}
-        variants={sliderVariantsright}
-        initial="initial"
-        animate="animate"
-      >
-        Projects Projects Projects Projects
-      </motion.div>
-      <motion.div
-        className={style.slidingTextCintainerleft}
-        variants={sliderVariants}
-        initial="initial"
-        animate="animate"
-      >
-        Projects Projects Projects Projects Projects Projects Projects Projects
-      </motion.div> */}
+    
     </div>
   );
 };

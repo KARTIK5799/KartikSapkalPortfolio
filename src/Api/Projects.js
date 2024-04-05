@@ -35,15 +35,15 @@ export const projectData=[
     "githubLink": "https://github.com/example/project4",
     "details": "Additional details about Project 4"
   },
-  {
-    "id": 5,
-    "title": "Project 5",
-    "description": "Description of Project 5",
-    "image": "../../assets/projectimg/p1.png",
-    "liveLink": "https://example.com/project5",
-    "githubLink": "https://github.com/example/project5",
-    "details": "Additional details about Project 5"
-  },
+  // {
+  //   "id": 5,
+  //   "title": "Project 5",
+  //   "description": "Description of Project 5",
+  //   "image": "../../assets/projectimg/p1.png",
+  //   "liveLink": "https://example.com/project5",
+  //   "githubLink": "https://github.com/example/project5",
+  //   "details": "Additional details about Project 5"
+  // },
   // {
   //   "id": 6,
   //   "title": "Project 6",
