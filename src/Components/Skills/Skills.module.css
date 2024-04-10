@@ -139,7 +139,7 @@
   .cardScreen{
     background-color: var(--primary-color);
     width: auto;
-  height: 425px;
+  height: 410px;
   border-radius: 8px;
   padding: 1rem;
    }
