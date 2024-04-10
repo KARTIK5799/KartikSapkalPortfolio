@@ -45,7 +45,7 @@ export const projectData = [
     "id": 7,
     "title": "XBoard (News)",
     "description": "XBoard is a news portal presenting updated news in carousel and dropdown formats, relying entirely on API data for content delivery.",
-    "image": "src/assets/xnews.png",
+    "image": "https://images.pexels.com/photos/20927624/pexels-photo-20927624/free-photo-of-a-woman-sitting-on-the-floor-with-her-legs-crossed.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     "liveLink": "https://newsportal-1997.netlify.app/"
   },
 
