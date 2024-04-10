@@ -3,11 +3,15 @@ import HomePage from './Pages/HomePage/HomePage';
 import './App.css'
 
 
+
 const App = () => {
+
+
+
   
   return (
     <div >
-   {/* <div className="preloader"><PreLoader/></div> */}
+   {/* <div className="preloader"><PreLoader/></div>  */}
     <div className="pages">
       <HomePage/>
     </div>

@@ -37,7 +37,7 @@
 
 .card {
     cursor: pointer;
-    width: 40vw;
+    width: 39.5vw;
     height: 60vh;
     margin: 0 auto;
     background-color: var(--secondary-color);
@@ -45,6 +45,9 @@
     opacity: 0.9;
     border: 1px solid rgba(255, 255, 255, 0.174);
     border-radius: 8px 8px 0 0;
+}
+.card:hover{
+  box-shadow: 5px 5px rgba(255, 255, 255, 0.1);
 }
    
    .tools {
@@ -136,7 +139,7 @@
   .cardScreen{
     background-color: var(--primary-color);
     width: auto;
-  height: 405px;
+  height: 425px;
   border-radius: 8px;
   padding: 1rem;
    }
@@ -256,7 +259,7 @@ transform: scale(1.2);
     height: 62vh;
   }
   .cardScreen{
-    height: 450px;
+    height: 480px;
     padding: 0;
   }
   .connections{

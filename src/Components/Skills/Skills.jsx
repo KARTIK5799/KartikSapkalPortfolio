@@ -21,7 +21,7 @@ import Vercel from "../../assets/vercel.jpg"
 
 const Skills = () => {
   return (
-    <div className={style.skillsSection}>
+    <div className={style.skillsSection} id="skills">
       <h1 className={`${style.skillHeading} ${style.gradientText}`}>
         My Skills
       </h1>

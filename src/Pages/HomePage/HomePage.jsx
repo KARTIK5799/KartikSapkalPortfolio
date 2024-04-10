@@ -4,7 +4,7 @@ import WhatIDo from "../../Components/WhatIDo/WhatIDo";
 import Projects from "../../Components/Projects/Projects";
 import Skills from "../../Components/Skills/Skills";
 import styles from "./HomePage.module.css";
-import Experience from "../../Components/Experience/Experience";
+
 import Contact from "../../Components/Contact/Contact";
 const HomePage = () => {
   return (
@@ -14,7 +14,7 @@ const HomePage = () => {
       <About />
       <Projects />
       <Skills />
-      <Experience />
+
       <Contact />
     </div>
   );

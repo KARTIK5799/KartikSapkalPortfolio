@@ -15,7 +15,7 @@
     color: white;
 }
 
-.heroText > h1 {
+.heroText>h1 {
     font-size: 4rem;
     line-height: 90px;
 }
@@ -25,104 +25,120 @@
     background: var(--text-gradient-orange);
     font-size: 6rem;
 }
-.name{
-background: var(--text-gradient-blue-purple);
+
+.name {
+    background: var(--text-gradient-blue-purple);
 
 }
-.heroText>p{
+
+.heroText>p {
     font-size: 2rem;
 }
-.buttons{
+
+.buttons {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 2rem;
 }
-.buttons>button{
+
+.buttons>button {
     border: none;
     border-radius: 10px;
-padding: 1.2rem 2rem;
-width: 200px;
-margin-top: 20px;
-color: var(--text-white);
-font-size: 17px;
-font-family: "Montserrat", sans-serif;
+    padding: 1.2rem 2rem;
+    width: 200px;
+    margin-top: 20px;
+    color: var(--text-white);
+    font-size: 17px;
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;
 
 }
-.button1{
+
+.button1 {
     background: var(--text-gradient-blue);
 }
-.button2{
+
+.button2 {
     background: var(--text-gradient-purple);
 }
 
 .gradientText {
-   background-clip: text;
+    background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
 }
 
 
 .material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
 }
 
-.downIcon span{
-    padding-top:2rem ;
+.downIcon span {
+    padding-top: 2rem;
     font-size: 3rem;
-    animation: scrollDown 5s ease-in-out infinite; 
+    animation: scrollDown 5s ease-in-out infinite;
 }
 
 @keyframes scrollDown {
     0% {
         transform: translateY(0);
     }
-    40%,60% {
+
+    40%,
+    60% {
         transform: translateY(20px);
     }
+
     100% {
         transform: translateY(0);
     }
-    
+
 }
 
 
- /* Tablet Devices */
- @media (min-width: 577px) and (max-width: 1100px) {
-   
-    .heroText>h1{
+/* Tablet Devices */
+@media (min-width: 577px) and (max-width: 1100px) {
+
+    .heroText>h1 {
         font-size: 5rem;
     }
-    .name{
-        font-size:4rem ;
+
+    .name {
+        font-size: 4rem;
     }
-    .hello{
+
+    .hello {
         font-size: 10rem;
     }
-    .heroText>p{
+
+    .heroText>p {
         font-size: 1.5rem;
     }
-  }
-  
-  /* Mobile Devices */
-@media (max-width: 576px) {
-.buttons{
-    display: flex;
-    flex-direction: column;
-    gap: 0.1rem;
-}
-.heroText>h1{
-    font-size: 3rem;
-}
-.name{
-    font-size:4rem ;
-}
-.heroText>p{
-    font-size: 1.5rem;
 }
 
-  }
+/* Mobile Devices */
+@media (max-width: 576px) {
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 0.1rem;
+    }
+
+    .heroText>h1 {
+        font-size: 3rem;
+    }
+
+    .name {
+        font-size: 4rem;
+    }
+
+    .heroText>p {
+        font-size: 1.5rem;
+    }
+
+}

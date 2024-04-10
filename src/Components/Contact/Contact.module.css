@@ -1,0 +1,143 @@
+.ContactSection{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary-color);
+    flex-direction: column;
+    color: var(--text-white);
+    overflow: hidden;
+}
+.contactHeading{
+    color: transparent;
+    font-size: 100px;
+    background: var(--text-gradient-orange);
+    margin-top: -2rem;
+ 
+}
+.contactText{
+    color: transparent;
+    font-size: 20px;
+    background: var(--text-gradient-green);
+    margin-bottom: 20px;
+}
+.gradientText {
+    background-clip: text;
+     -webkit-background-clip: text;
+     color: transparent;
+ }
+ .contactCard{
+    background: var(--secondary-color);
+    width: 60rem;
+   border-radius:16px ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+    height:70vh;
+    padding: 3rem;
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+
+ }
+ .contactCard:hover{
+  transform: scale(1.02);
+  box-shadow: 10px 10px rgba(255, 255, 255, 0.1);
+ }
+
+
+ .contactInfo {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   gap: 2rem;
+  }
+  
+  .infoItems {
+    background-color: var(--primary-color);
+  padding: 50px 0;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    width: 300px;
+    border-radius: 20px;
+   text-align: center;
+  }
+  
+  .contactCard form div {
+    margin-bottom: 10px;
+
+  }
+  .formstyle{
+    padding-left: 100px;
+    border-left:2px solid white ;
+  }
+  .contactCard label {
+    background: var(--text-gradient-blue-purple);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    display: block;
+    text-align: center;
+
+  }
+  
+  .contactCard input[type="text"],
+  .contactCard input[type="email"],
+  
+  .contactCard textarea {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background: var(--primary-color);
+    color: white;
+  }
+  
+  .contactCard textarea {
+    height: 150px;
+  }
+  
+  .contactCard button {
+    background: var(--text-gradient-blue-purple);
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    width: 100%;
+  }
+  
+  .contactCard button:hover {
+    background-color: #000000;
+  }
+
+   /* Tablet Devices */
+@media (min-width: 577px) and (max-width: 1100px) {
+  
+
+  }
+  
+  /* Mobile Devices */
+  @media (max-width: 576px) {
+   
+  .contactHeading{
+    margin-top: 0rem;
+    font-size: 60px;
+  }
+  .contactInfo{
+    display: none;
+  }
+  .contactCard{
+    width: 90vw;
+    display: flex;
+    align-items: center;
+  }
+  .formstyle{
+   padding:0;
+    border:none;
+  }
+  } 
