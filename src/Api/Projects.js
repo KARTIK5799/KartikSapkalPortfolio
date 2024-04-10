@@ -24,7 +24,7 @@ export const projectData = [
     "id": 4,
     "title": "KnownCrypto (Finance)",
     "description": "KnownCrypto is a platform providing comprehensive information about cryptocurrencies, featuring live trading charts, data indicators, and real-time data for informed decision-making.",
-    "image": "src/assets/coinx.png",
+    "image": "https://images.pexels.com/photos/21358009/pexels-photo-21358009/free-photo-of-web-design.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     "liveLink": "https://koinx-sigma.vercel.app/"
   },
   {
@@ -36,10 +36,10 @@ export const projectData = [
   },
   {
     "id": 6,
-    "title": "QTrip (Traveling)",
+    "title": "VataVaranm (Weather App)",
     "description": "QTrip is a straightforward API-based frontend adventure booking site designed to assist users in discovering adventures in various cities.",
-    "image": "https://images.pexels.com/photos/21357573/pexels-photo-21357573/free-photo-of-website-web-design.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "liveLink": "https://qtrip-1979.netlify.app/"
+    "image": "https://images.pexels.com/photos/21357996/pexels-photo-21357996/free-photo-of-web-design.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "liveLink": "https://vata-varanm.vercel.app/"
   },
   {
     "id": 7,
