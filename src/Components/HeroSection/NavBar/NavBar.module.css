@@ -34,6 +34,7 @@
 .navLogoText{
     font-family: "Ephesis", cursive;
     font-size: 3rem;
+    cursor:pointer;
 }
 
 .navRight {}
