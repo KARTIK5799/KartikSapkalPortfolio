@@ -16,7 +16,10 @@ const NavBar = () => {
       <div className={`${style.deskNav} ${style.glowEffect}`}>
         <nav className={style.navBar}>
           <div className={style.navLeft}>
-            <p className={style.navLogoText}>Kartik sapkal</p>
+            <p className={style.navLogoText} onClick={() => {
+                setActiveLink("Home");
+                scrollToSection("home");
+              }}>Kartik sapkal</p>
           </div>
           <div className={style.navRight}>
             <ul className={style.navLinks}>
