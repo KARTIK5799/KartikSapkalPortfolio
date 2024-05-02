@@ -1,0 +1,13 @@
+.custom-cursor{
+    position:fixed;
+    pointer-events: none; 
+    z-index: 9999; 
+  
+}
+.custom-cursor img{
+    width: 60px;
+ 
+}
+.custom-cursor img.hide-rocket {
+    display: none; /* Hide rocket when cursor is pointer */
+}

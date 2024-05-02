@@ -2,6 +2,7 @@ import style from "./Projects.module.css";
 
 import { projectData } from "../../Api/Projects";
 
+
 const Projects = () => {
   return (
     <div className={style.ProjectSection} id="project">
@@ -43,6 +44,7 @@ const Projects = () => {
           ))}
         </div>
       </div>
+      
     </div>
   );
 };

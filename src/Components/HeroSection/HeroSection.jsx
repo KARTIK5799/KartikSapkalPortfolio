@@ -53,7 +53,7 @@ Warm regards,
           <h1>
             <span className={`${style.hello} ${style.gradientText}`}>Hello!</span> <br/>I am  <span className={`${style.name} ${style.gradientText}`}>Kartik Sapkal </span>
           </h1>
-          <p>Frontend Developer</p>
+          <p>Software Developer</p>
           <div className={style.buttons}>
             <button className={style.button1} onClick={handleDownloadCV}>Download CV</button>
             <button className={style.button2} onClick={handleEmailMe}>Email me</button>

@@ -6,9 +6,11 @@ import Skills from "../../Components/Skills/Skills";
 import styles from "./HomePage.module.css";
 
 import Contact from "../../Components/Contact/Contact";
+import CustomCursor from "../../Components/CustomCursor/CustomCursor";
 const HomePage = () => {
   return (
     <div className={styles.homePage}>
+      
       <HeroSection />
       <WhatIDo />
       <About />
@@ -16,6 +18,7 @@ const HomePage = () => {
       <Skills />
 
       <Contact />
+      <CustomCursor/>
     </div>
   );
 };

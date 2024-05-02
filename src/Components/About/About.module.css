@@ -38,7 +38,7 @@
     height:70vh;
     padding: 3rem;
     gap: 2rem;
-    cursor: pointer;
+    
     transform: scale(1);
     transition: transform 0.3s ease-in-out;
  
