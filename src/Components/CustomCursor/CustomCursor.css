@@ -8,6 +8,10 @@
     width: 60px;
  
 }
-.custom-cursor img.hide-rocket {
-    display: none; /* Hide rocket when cursor is pointer */
-}
+
+
+@media (max-width: 576px) {
+    .custom-cursor{
+        display: none;
+    }
+  } 
