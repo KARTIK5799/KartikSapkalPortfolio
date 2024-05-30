@@ -27,13 +27,7 @@ export const projectData = [
     "image": "https://images.pexels.com/photos/21358009/pexels-photo-21358009/free-photo-of-web-design.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     "liveLink": "https://koinx-sigma.vercel.app/"
   },
-  {
-    "id": 5,
-    "title": "QKart (E-commerce)",
-    "description": "QKart is a frontend e-commerce application utilizing context and API integration. It offers a fundamental shopping experience with seamless integration.",
-    "image": "https://images.pexels.com/photos/21357571/pexels-photo-21357571/free-photo-of-website-web-design.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "liveLink": "https://qkart-front-end-kartik.netlify.app/"
-  },
+  
   {
     "id": 6,
     "title": "VataVaranm (Weather App)",
@@ -41,12 +35,6 @@ export const projectData = [
     "image": "https://images.pexels.com/photos/21357996/pexels-photo-21357996/free-photo-of-web-design.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
     "liveLink": "https://vata-varanm.vercel.app/"
   },
-  {
-    "id": 7,
-    "title": "XBoard (News)",
-    "description": "XBoard is a news portal presenting updated news in carousel and dropdown formats, relying entirely on API data for content delivery.",
-    "image": "https://images.pexels.com/photos/21357572/pexels-photo-21357572/free-photo-of-website-web-design.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "liveLink": "https://newsportal-1997.netlify.app/"
-  },
+ 
 
 ];
